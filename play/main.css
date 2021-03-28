@@ -370,7 +370,7 @@ input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
 
 .streetview {
     height: 100%;
-	-webkit-filter: invert();
+	/*-webkit-filter: invert();*/
 }
 
 ::-webkit-scrollbar {
