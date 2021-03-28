@@ -6,7 +6,7 @@ class MapManager {
         this.maps = await response.json();
     }
 
-    getAreaMap(lat, lon, radius, numSides = 30) {
+    getAreaMap(lat, lon, radius, numSides = 20) {
         radius *= 1000;
         let center = new google.maps.LatLng(lat, lon);
         const paths = [], degreeStep = 360 / numSides;
