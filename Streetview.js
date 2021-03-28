@@ -4,7 +4,7 @@ class Streetview {
         this.distribution = distribution;
     }
 
-    async randomValidLocation(endZoom = 14) {
+    async randomValidLocation(endZoom = 16) {
         let tile = await this.randomValidTile(endZoom);
         let canvas = document.createElement("canvas");
         let context = canvas.getContext("2d");
